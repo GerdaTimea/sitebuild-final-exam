@@ -124,27 +124,28 @@ hr {
   font-weight: 500;
 }
 
-.cards {
-  width: 420px;
-}
-
-@media screen and (max-width: 520px) {
-  .cards {
-    width: 360px;
-  }
-}
-
 .textDiv {
+  width: 420px;
   padding: 40px;
 
   background-color: #145434;
   color: #ffeedf;
 }
 
+@media screen and (max-width: 520px) {
+  .textDiv {
+    width: 360px;
+  }
+}
+
 .title {
-  margin-bottom: 50px;
   font-size: 36px;
   font-weight: 400;
+}
+
+.title:nth-child(2) {
+  height: 36px;
+  margin-bottom: 20px;
 }
 
 .cards hr {
